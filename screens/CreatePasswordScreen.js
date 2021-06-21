@@ -43,13 +43,7 @@ const CreatePasswordScreen = ({ navigation }) => {
                             />
                         </TouchableOpacity>
 
-                        <Text
-                            style={{
-                                color: '#fff',
-                                fontFamily: 'SFProDisplay-Bold',
-                                fontSize: 16,
-
-                            }}>TẠO MẬT KHẨU</Text>
+                      
                     </View>
                     <View style={{ alignItems: 'center' }}>
                         <View
