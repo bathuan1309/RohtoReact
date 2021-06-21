@@ -19,13 +19,7 @@ import {
 import { LoginAPI } from '../stores/LoginStore/LoginActions';
 import { useDispatch, useSelector, useStore } from 'react-redux'
 const CreatePasswordScreen = ({ navigation }) => {
-    const counter = useSelector((state) => state.loginReducers)
-    const [username, setUsername] = useState("")
-    const [password, setPassword] = useState("")
-    const [repassword, setRePassword] = useState("")
-
-    const [visible, setVisible] = useState(true)
-    const [visiblere, setVisiblRe] = useState(true)
+   
     return (
         <>
             <StatusBar
